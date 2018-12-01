@@ -1,0 +1,348 @@
+Sentence	dislocated NP	dislocated determiner	nuclear pronoun
+So there was always room to run down there and do some work for somebody else and earn a few shillings , that road .	that road	that	there
+And it didnt do any harm at all , that lump .	that lump	that	it
+Right, can you (pause) put that away somewhere , that sheet .	that sheet	that	that
+I thought companies were ensuring that you wouldnt take that on , that stress .	that stress	that	that
+Hell have panicked if I know him , that Warden .	that Warden	that	he
+They always had money , that sort .	that sort	that	they
+Hes got backbone , that boy .	that boy	that	he
+It had pleased him , that discovery .	that discovery	that	it
+He just would not diversify , that boy .	that boy	that	he
+She had it coming to her , that girl .	that girl	that	she
+Its a right camel , that horse .	that horse	that	horse
+They looked like King Kong and Fay Wray, that hand , that cigarette .	that hand	that	they
+They looked like King Kong and Fay Wray, that hand , that cigarette .	that cigarette	that	they
+They lived in a world of their own , that lot .	that lot	that	they
+Been on the cards for ages , that wedding .	that wedding	that	NULL
+It was a real success , that party .	that party	that	it
+Certainly knows a thing or two , that chap .	that chap	that	NULL
+Just like a ferret , that man .	that man	that	NULL
+It was queer , that difference .	that difference	that	it
+He was right about one thing, though , that priest .	that priest	that	he
+Out of time and place , that spot .	that spot	that	NULL
+He has manner , that boy .	that boy	that	he
+It is very carefully and very strictly planned , that Ritual .	that Ritual	that	it
+They dont care if it snows , that pair .	that pair	that	they
+Red and dangerous , that suitcase .	that suitcase	that	NULL
+Very polite and correct, that officer , that day .	that officer	that	NULL
+So bright, so indifferent , that moon .	that moon	that	NULL
+Shes a great organiser , that girl .	that girl	that	she
+He was very long-winded , that padre .	that padre	that	he
+We must try that again at lunchtime , that trick .	that trick	that	that
+I wont sacrifice that , that idea .	that idea	that	that
+Makes a good cup of coffee , that girl .	that girl	that	NULL
+And it had a sort of smell , that room .	that room	that	it
+Didnt sell as well as it ought to have , that book .	that book	that	NULL
+It had done a lot , that hand .	that hand	that	it
+A trifle premature, maam , that adjective .	that adjective	that	NULL
+They think Im blimming Mary Poppins , that lot .	that lot	that	they
+Come in very handy , that spread .	that spread	that	NULL
+It was magnificent in its way , that plan .	that plan	that	it
+Hangs about for a long time , that smell .	that smell	that	NULL
+Very literal-minded lad , that lad .	that lad	that	NULL
+She is cunning , that girl .	that girl	that	she
+Hes keen , that lad .	that lad	that	he
+Its no good , that business .	that business	that	it
+Altogether more of a Second Empire kind of guzzle than a Roman treat , that invention .	that invention	that	NULL
+Clarified in fact is what it is, or should be , that butter .	that butter	that	it
+Well I told you it was her , that daughter .	that daughter	that	her
+Its got the jinx , that bike .	that bike	that	it
+Oh hes got a wrestler just like ours , that guy .	that guy	that	he
+Thats a fire engine , that thing .	that thing	that	that
+I dont know because he hes never really been frightfully keen on me , that cat .	that cat	that	he
+Its its rubbish , that thing .	that thing	that	it
+Oh you you havent done it , that bit .	that bit	that	it
+Its not long , that story .	that story	that	it
+They were all nice , that family .	that family	that	they
+Must be out of the stir-fry , that broccoli .	that broccoli	that	NULL
+Well it soon went , that lot .	that lot	that	it
+I think hes getting hooked on the taste of vaseline , that dog .	that dog	that	he
+And that Saigon thing where he sings to her , that girl . 	that girl	that	she
+Theres in a studio , that bit .	that bit	that	there
+(unclear) fucking made me cringe , that story .	that story	that	UNKNOWN
+Thats yours , that type .	that type	that	that
+I think they must of sold it, shes had another baby the , that girl .	that girl	that	she
+that is, well that is, and thats like the longest, even, like the longest bit, the walk into college seems to be , that bit .	that bit	that	that
+Thats quite good actually, Jo, look , that joke .	that joke	that	that
+But thats what I want , that moment .	that moment	that	that
+Its getting too much like Carnaby Street , that patch .	that patch	that	it
+Manipulative , that boy .	that boy	that	NULL
+Its all about my mum being a window cleaner , this book .	this book	this	it
+Yeah thats what he, they said hes been marvellous , this treasurer .	this treasurer	this	he
+You can put this through to soak anyway , this plate .	this plate	this	this
+I dont know whether theyre having difficulties, I dont know what it was about but he seemed very serious , this man .	this man	this	he
+...and it was a (unclear) and it was made in (-----) , this car .	this car	this	it
+And it started, we could see where it started from , this fire .	this fire	this	it
+Thank you, Mr Chairman, erm, I find this absolutely staggering , this settlement .	this settlement	this	this
+a very imprecise idea , this infinity .	this infinitiy	this	UNKNOWN
+More of a slug , this car .	this car	this	NULL
+Not very fast at all , this lot .	this lot	this	NULL
+Its great , this park .	this park	this	it
+Sticky stuff , this clay .	this clay	this	NULL
+Its got bad feelings for me , this room .	this room	this	it
+They were both too old and too worn to read such nonsense, that princess , this frog .	that princess	that	they
+They were both too old and too worn to read such nonsense, that princess , this frog .	this frog	this	they
+It is old , this Underground .	this Underground	this	it
+Its some sort of kick , this work .	this work	this	it
+It is a bit like the London Marathon , this Rally .	this Rally	this	it
+It hadnt been fulfilled yet , this love .	this love	this	it
+It is too small , this visit .	this visit	this	it
+Not easy , this stuff .	this stuff	this	NULL
+Well, this is what Im, what Im on about , this proposal .	this proposal	this	this
+Were in the premier league here , this union .	this union	this	we
+He can, warned Harriet, whirl round and give you a kick , this fellow .	this fellow	this	he
+I dont think it will last long , this kidnapping .	this kidnapping	this	it
+She had called it maturity , this pleasantness .	this pleasantness	this	it
+Anyway, he is not mine , this Manrico .	this Manrico	this	he
+Cruel business , this cock-fighting .	this cock-fighting	this	NULL
+Its my fault , this bill .	this bill	this	it
+He is clever and dangerous , this ghost .	this ghost	this	he
+All bloody unpaid overtime , this job .	this job	this	NULL
+Its come down through the years , this story .	this story	this	it
+Sa bit boring the way it is , this room .	this room	this	it
+Quite a few days it had taken Madeleine , this sewing .	this sewing	this	it
+It kills a lot of young people , this heroin .	this heroin	this	it
+A dreadful place , this Passage .	this Passage	this	NULL
+He is certainly a sharp one , this Polgar .	this Polgar	this	he
+He certainly knew how to live , this Rune .	this Rune	this	he
+I mean, of course its always done that, but now, with you telling me to look at it, this seems the most noteworthy feature , this clench .	this clench	this	this
+Maybe one day it will disappear , this racism .	this racism	this	it
+These are indicators , these boxes .	these boxes	these	these
+Theyre very dangerous , these people .	these people	these	they
+Theyre as alive as we are , these trees .	these trees	these	they
+They didnt know what it was like , these people .	these people	these	they
+Not serene, overexcited , these fields .	these fields	these	NULL
+Perhaps she had missed it in the flat , these passagings .	these passagings	these	it
+Theyd be a tough bunch to deal with , these skinheads .	these skinheads	these	they
+Bless my soul, they are certainly not to be lightly regarded , these creatures .	these creatures	these	they
+Theyre incredible , these Indians .	these Indians	these	they
+Dont let them in , these crashers .	these crashers	these	they
+They make straight for me , these people .	these people	these	they
+They were all mad , these people .	these people	these	they
+Theyre pretty damn terrifying , these ellipses .	these ellipses	these	they
+They aint like other people, though , these dons .	these dons	these	they
+A real bad lot , these fellas .	these fellas	these	NULL
+But they dont like it , these businessmen .	these businessmen	these	they
+I was brought up not to stare but they stare at you , these workmen .	these workmen	these	they
+# THEY LIKE their movies , these people .	these people	these	they
+They like a bit of a burn-up , these boys .	these boys	these	they
+They really are dreadful here , these screws .	these screws	these	they
+you know when we were talking about the net economic costs (pause) well theyre within the European Community , those costs .	those costs	those	they
+they must have repeated Dads Army, and Ello, Ello about fourteen hundred times, but they still get enormous ratings , those programmes .	those programmes	those	they
+Theyd destroy it , those kids .	those kids	those	they
+A waste of time and money, in my opinion , those conferences .	those conferences	those	NULL
+It seemed to Skaller as if he must kiss them again , those lips .	those lips	those	they
+Thats what they do , those canines .	those canines	those	they
+They were little enough , those shops .	those shops	those	they
+But they were ruthless , those women .	those women	those	they
+Red in white , those eyes .	those eyes	those	NULL
+Then they came again , those footsteps .	those footsteps	those	they
+They re not... pleasant , those pages .	those pages	those	they
+Theyd not been drabs either , those women .	those women	those	they
+Load of garbage , those stories .	those stories	those	NULL
+They drank like fishes , those guys .	those guys	those	they
+Not at the moment, but theyre a funny lot , those villagers .	those villagers	those	they
+They never are , those things .	those things	those	they
+They were marvellous , those paintings .	those paintings	those	they
+They were absolutely wonderful , those things .	those things	those	they
+They were really twenty-four-hour jobs , those patrols .	those patrols	those	they
+Oh man, theyre so far out theyve seen Pluto , those guys .	those guys	those	they
+Looks a lot bigger in the photos , the garden .	the garden	the	NULL
+Dogs from England can go anywhere, its just coming back in , the problem .	the problem	the	it
+Theyre wonderful people , the Italians .	the Italians	the	they
+Its just the way theyve done it , the firm .	the firm	the	they
+Its all been refitted , the club .	the club	the	it
+And another good old word is the crome, now er that was one I came across for the first time when I came into Suffolk , the crome .	the crome	the	that
+I dont want to be limited to, its got to have a certain colour , the fabrics .	the fabrics	the	it
+So its four , the answer .	the answer	the	it
+And I said to them theyre but theyre quite, quite expensive , the cats .	the cats	the	they
+nearly all American , the cartoons . 	the cartoons	the	NULL
+Oh hes hurt , the goalkeeper .	the goalkeeper	the	he
+Its costing nothing , the day .	the day	the	it
+I think thats what people are trying to look for , the differences .	the differences	the	that
+Oh I tell you what is quite funny these , the act .	the act	the	what
+So its four , the answer .	the answer	the	it
+thats where the flowersll grow , the blossom .	the blossom	the	that
+Its a clutch pencil , the business . 	the business	the	it
+This is the most valuable part , the feedback .	the feedback	the	this
+about the width of your (pause) settee, I would imagine , the house .	the house	the	NULL
+For if they were larger it would be quite frightening, I think , the implications .	the implications	the	it
+and er (pause) so thats why its s-- so low the , the income . 	the income	the	it
+So before it was erm (pause) all the way around the pitch , the response .	the response	the	it
+and the piano, I remember that very well , the piano .	the piano	the	that
+He jailed them for the weekend , the judge .	the judge	the	he
+Its really hard though , the labour . 	the labour	the	it
+It doesnt help any for anythings so expensive to buy , the machinery .	the machinery	the	anything
+He told (unclear) hadnt he , the manager .	the manager	the	he
+they didnt even they didnt even let, er take very kindly to the French letters some of them didnt you know , the men .	the men	the	they
+When that gone down they used to splash cos that used to come underneath the buckets and our cabin hatchway was facing that and many a time thatd come right down the cabin , the mud .	the mud	the	that
+So if erm, if theyre not used, theyve got to be thrown away, they cant be sort of used again the next day , the veg . 	the veg	the	they
+but the only thing was, sometimes you know, the the visitors (unclear) in the mornings they used to come out , the visitors .	the visitors	the	they
+Its too, too rotten , the wood .	the wood	the	it
+Thats where it hurt most , the thumb .	the thumb	the	that
+She gave them the name of the hotel where theyd stayed , the lot .	the lot	the	she
+Paddy names , the lot .	the lot	the	NULL
+Theyll replace them free of charge , the lot .	the lot	the	they
+They came partly for the singing , the people .	the people	the	they
+Its a pit , the Moon .	the Moon	the	it
+They say hes going to speak tonight , the King .	the King	the	he
+Not universally successful , the prawns .	the prawns	the	NULL
+Just now we didnt have any name for it at all, and it was just The Bar, like it always was , the bar .	the bar	the	it
+Very clean , the bastards .	the bastards	the	NULL
+Theyve kidnapped them , the bastards .	the bastards	the	they
+It waited for him in Zrich, Poshekhonov would say , the pay-off .	the pay-off	the	it
+Give it to me , the codicil .	the codicil	the	it
+He might as well get used to it , the cold .	the cold	the	it
+A good man , the Colonel .	the Colonel	the	NULL
+But a great lover of the automobile , the daddy .	the daddy	the	NULL
+It always fascinated Hoomey , the differentness .	the differentness	the	it
+He likes me to wheedle , the brute .	the brute	the	he
+This was a new intrusion , the capitals .	the capitals	the	this
+It was ever so ingenious , the castle .	the castle	the	it
+It was quite well done , the ad .	the ad	the	it
+It... it was intense , the affair .	the affair	the	it
+Theyre short of hard currency , the Hungarians .	the Hungarians	the	they
+Filthy beggars , the Italians .	the Italians	the	NULL
+Its only seven miles away , the ground .	the ground	the	it
+I felt a sense of profound foreboding and then I saw them , the gyppos .	the gyppos	the	them
+Hes greasing himself , the fucker .	the fucker	the	he
+She had pitied him; and that was part of the devaluing , the belittling .	the belittling	the	that
+They will go laying on the batters , the blighters .	the blighters	the	they
+Intractable bastards , the Ukrainians .	the Ukrainians	the	NULL
+That would have done it for her , the uncertainty .	the uncertainty	the	that
+I looked beseechingly at Malcolm, but he turned away , the rat .	the rat	the	he
+Her taunt -- and it was a taunt , the ring .	the ring	the	it
+It went like this , the sequence .	the sequence	the	it
+They were very beautiful when you looked into them, the colours , the shapes .	the colors	the	they
+They were very beautiful when you looked into them, the colours , the shapes .	the shapes	the	they
+They do not like being deceived , the Soldier-folk .	the Soldier-folk	the	they
+He became... unwell and gave it up , the stage .	the stage	the	it
+it was the only way for them to keep sane , the survivors .	the survivors	the	them
+Perhaps it doesnt feel anything , the ladybird .	the ladybird	the	it
+Hes a law unto himself , the master .	the master	the	he
+Its a bit tough , the meat .	the meat	the	it
+A bad lot , the Menzieses .	the Menzieses	the	NULL
+He wont help you! Look at him , the moron .	the moron	the	he
+And here it was , the nightmare .	the nightmare	the	it
+And its funny an all that the dirty buggers dont go for the ragged-arsed lot thats swarmin , the place . 	the place	the	that
+Ice-skinned and jade-boned , the plum .	the plum	the	NULL
+Itll drop off , that .	X that	that	it
+And its summat Id like myself , that .	X that	that	it
+Thats pretty , that .	X that	that	that
+Thats mine , that .	X that	that	that
+It must be the most (pause) emotionally unstable province in the world , that .	X that	that	it
+Said it fit him , that .	X that	that	it
+And I, I think that will be kids , that .	X that	that	that
+Its good quality , that .	X that	that	it
+Thats the only thing to watch , that .	X that	that	that
+That works okay , that .	X that	that	that
+Thats a story , that .	X that	that	that
+That looks very very impressive by the way , that .	X that	that	that
+Vinegar on a clam , that .	X that	that	NULL
+Oh, you think I should have a kept woman like Ma -- not very modern , that .	X that	that	NULL
+Youve made yourself an enemy for life instead of a friend for life -- very clever , that .	X that	that	NULL
+He was naked except for a bow tie -- a nice touch , that .	X that	that	NULL
+Not good , that .	X that	that	NULL
+Odd , that .	X that	that	NULL
+An interesting hypothesis , that .	X that	that	NULL
+Funny , that .	X that	that	NULL
+Nasty accident , that .	X that	that	NULL
+Initiative , that .	X that	that	NULL
+Vivien had been called Goldman, not particularly euphonious or attractive , that .	X that	that	NULL
+A fine book , that .	X that	that	NULL
+Good man , that .	X that	that	NULL
+Spooky , that .	X that	that	NULL
+It could a nasty , that .	X that	that	it
+My word, its basic stuff , that .	X that	that	it
+Bad luck , that .	X that	that	NULL
+Ingenious , that .	X that	that	NULL
+Not too bad , that .	X that	that	NULL
+I doubt me that many ladies write for old J.D. -- a dubious proposition , that .	X that	that	NULL
+Odd , that .	X that	that	NULL
+A sorry accident , that .	X that	that	NULL
+Very New York private eye , that .	X that	that	NULL
+Got right up my nose , that .	X that	that	NULL
+A Jew? Odd , that .	X that	that	NULL
+Not bad rule of thumb , that .	X that	that	NULL
+Its important , that .	X that	that	it
+Nice bit of planking , that .	X that	that	NULL
+Funny , that	X that	that	NULL
+It was good fun , that .	X that	that	it
+Fair summary , that .	X that	that	NULL
+Could be a good sign , that .	X that	that	NULL
+Good , that .	X that	that	NULL
+A terrible thing , that .	X that	that	NULL
+(unclear) hes a shebumkin look , that one .	that one	that	he
+Thatll do nicely for our Carl , that one .	that one	that	that
+Its quite a nice little book actually I think , that one .	that one	that	it
+thats erm (pause) thats corned beef , that one .	that one	that	that
+Gets too long , that one . 	that one	that	NULL
+Nice little turn up for me , that one .	that one	that	NULL
+Its a bugger of a square to get on , that one .	that one	that	it
+That will be better , that one . 	that one	that	that
+Yes it is loose , that one .	that one	that	it
+Erm i-- i-- i-- thats the first one you come to , that one .	that one	that	that
+Well it was a place on (-----) Street, and its still there , that one .	that one	that	it
+Thats a very good word to use , that one .	that one	that	that
+Do it yourself , that one .	that one	that	it
+and I think its a very difficult question , that one .	that one	that	it
+Pottery , that one .	that one	that	NULL
+Hes a con artist , that one .	that one	that	he
+She always liked a good story , that one .	the one	that	she
+Shes trouble , that one .	that one	that	she
+He hasnt got enough to do , that one .	that one	that	he
+She was no good , that one .	that one	that	she
+He was a bit of a character , that one .	that one	that	he
+That was a real nightmare , that one .	that one	that	that
+And its a nasty end , that one .	that one	that	it
+Wildcat , that one .	that one	that	NULL
+But he moves without you noticing , that one .	that one	that	he
+Your typical Regency rakehell , that one .	that one	that	NULL
+She could have had her pick , that one .	that one	that	she
+Hes a cunt , that one .	that one	that	he
+Hes a miserly character , that one .	that one	that	he
+Perilous , that one .	that one	that	NULL
+Hes nobodys fool , that one .	that one	that	he
+Dangerous bastard , that one .	that one	that	NULL
+He was born for a hanging , that one .	that one	that	he
+Heart of corn , that one .	that one	that	NULL
+A great man , that one .	that one	that	NULL
+Oh! hes got his buttons on all right , that one .	that one	that	he
+He had a narrow squeak , that one .	that one	that	he
+Here today and gone tomorrow , that one .	that one	that	NULL
+He is like the weather forecast , that one .	that one	that	he
+Theyre nice , those .	X those	those	they
+That cant be right , this .	X this	this	that
+Oh, its a big fat one , this .	X this	this	it
+Its its a bit closed , this .	X this	this	it
+And theyre all gon na tell lies and its gon na be (pause) the dirtiest election that theres ever been , this .	X this	this	it
+Erm and it shows its the twenty I think its the twenty second or twenty third Ive got it at home, er of October nineteen fourteen , this .	X this	this	it
+Its a nice bridge , this .	X this	this	it
+Good as an ice box , this .	X this	this	NULL
+I think its a hospital job , this .	X this	this	it
+Ideally they were supposed to pick up that the woman (Trish) was asking the man (me) for money -- an all-too-authentic situation , this .	X this	this	NULL
+Good place , this .	X this	this	NULL
+Good game , this .	X this	this	NULL
+Take some heating , this .	X this	this	NULL
+Intriguing planet , this .	X this	this	NULL
+It was a strange place , this .	X this	this	it
+Good date , this .	X this	this	NULL
+A bit of a strange mixture , this .	X this	this	NULL
+Im sure theres artistic merit in plentiful supply here, but would a little entertainment be too much to ask? MAGNA-FICENT! MAGNAPOP RADIOHEAD STRANGE ONE , this .	X this	this	NULL
+There was one other condition of release: having a husband in the Home Forces who wanted his wife to be with him -- a sop to the Services , this .	X this	this	NULL
+Er actually (unclear) it has been broken into , this one .	this one	this	it
+walks down about eight oclock, talk about long legs, shes got really long legs right , this one .	this one	this	she
+Actually this is a very warm room I think , this one .	this one	this	this
+That ones alright , this one .	this one	this	that one
+So this i-- this is a good thing to work through , this one .	this one	this	this
+The sort of job that pleased him most , this one .	this one	this	NULL
+Bit nervous , this one .	this one	this	NULL
+Hes no fool , this one .	this one	this	he
+Hes a survivor , this one .	this one	this	he
+Shes not for marrying , this one .	this one	this	she
+Something of a surprise , this one .	this one	this	NULL
+Anybodys game , this one .	this one	this	NULL
+Great win , this one .	this one	this	NULL
+(unclear) orderly meetings , these .	X these	these	UNKNOWN
+(pause) they tend to be a bit ignored in history , these .	X these	these	they
+An early influence on Jonathan Kings Revolution magazine, this one .	this one	this	NULL
