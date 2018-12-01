@@ -1,0 +1,6 @@
+Word	Total in corpus (any position)	Total in , X N . position	Total X "NP" RDs	Total in , X . position	Total X RDs	Total in , X one(s) . position	Total X "one(s)" RDs
+"the"	5966774	706	79	0	0	0	0
+"this"	448496	196	40	24	18	26	14
+"that"	368390	153	67	79	46	68	39
+"these"	122527	55	20	5	2	0	0
+"those"	86269	31	20	5	1	0	0
