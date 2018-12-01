@@ -5,6 +5,7 @@ library(ggplot2)
 theme_set(theme_bw())
 library(ordinal)
 library(plyr)
+library(stringr)
 library(reshape2)
 
 # load the data and helper functions
@@ -49,7 +50,7 @@ df$Context <- df$Q
 levels(df$Context) <- c("Agree", "Disagree", "Agree", "Disagree", "Agree", "Disagree", "Agree", "Disagree", "Agree", "Disagree", "Agree", "Disagree", "Agree", "Agree", "Disagree", "Disagree", "Agree", "Agree", "Disagree", "Disagree", "Agree", "Disagree", "Agree", "Disagree", "Agree", "Disagree", "Agree", "Disagree", "Agree", "Agree", "Disagree", "Disagree")
 droplevels(df$Context)
 df$Utterance <- df$Q
-levels(df$Utterance) <- c("Non-Dislocated", "Non-Dislocated", "Right Dislocated", "Right Dislocated", "Non-Dislocated", "Non-Dislocated", "Right Dislocated", "Right Dislocated", "Non-Dislocated", "Non-Dislocated", "Right Dislocated", "Right Dislocated", "Non-Dislocated", "Right Dislocated", "Non-Dislocated", "Right Dislocated", "Non-Dislocated", "Right Dislocated", "Non-Dislocated", "Right Dislocated", "Non-Dislocated", "Non-Dislocated",  "Right Dislocated", "Right Dislocated", "Non-Dislocated", "Non-Dislocated", "Right Dislocated", "Right Dislocated", "Non-Dislocated", "Right Dislocated", "Non-Dislocated", "Right Dislocated")
+levels(df$Utterance) <- c("Non-Dislocated", "Non-Dislocated", "Right-Dislocated", "Right-Dislocated", "Non-Dislocated", "Non-Dislocated", "Right-Dislocated", "Right-Dislocated", "Non-Dislocated", "Non-Dislocated", "Right-Dislocated", "Right-Dislocated", "Non-Dislocated", "Right-Dislocated", "Non-Dislocated", "Right-Dislocated", "Non-Dislocated", "Right-Dislocated", "Non-Dislocated", "Right-Dislocated", "Non-Dislocated", "Non-Dislocated",  "Right-Dislocated", "Right-Dislocated", "Non-Dislocated", "Non-Dislocated", "Right-Dislocated", "Right-Dislocated", "Non-Dislocated", "Right-Dislocated", "Non-Dislocated", "Right-Dislocated")
 droplevels(df$Utterance)
 df$Item <- df$Q
 levels(df$Item) <- c("1", "1", "1", "1", "2", "2", "2", "2", "3", "3", "3", "3", "4", "4", "4", "4", "5", "5", "5", "5", "6", "6", "6", "6", "7", "7", "7", "7", "8", "8", "8", "8")
@@ -68,12 +69,16 @@ ggplot(df, aes(x=Item, y=Acceptability)) +
 ggsave(f="OFFICIAL_per_item_2.pdf",height=10,width=10)
 
 #Graph by item but only AgreeND
+long_form_names <- c(`AgreeND` = "Non-Dislocated Target Sentences in Agree Contexts", `DisagreeND` = "Non-Dislocated Target Sentences in Disagree Contexts", `AgreeRD` = "Right-Dislocated Target Sentences in Agree Contexts", `DisagreeRD` = "Right-Dislocated Target Sentences in Disagree Contexts")
+revalue(df$Item, c("1"="That Diana's a smart cookie", "2"="The Italians are wonderful people", "3"="That one looks like a good book for Carl", "4"="That was a scary film", "5"="That was a tasty dish", "6"="That ros� was a good wine","7"="I bet those kids are up to no good","8"="This stuff is not easy")) -> df$Itemz
+
 simplesent <- subset(df, Type=="AgreeND")
-ggplot(simplesent, aes(x=Item, y=Acceptability)) +
- geom_boxplot(width=0.2, position=position_dodge(.9)) +
+ggplot(simplesent, aes(x=Itemz, y=Acceptability)) +
+ geom_boxplot(width=0.2, position=position_dodge(.9))+
+  scale_x_discrete(labels = function(Itemz) str_wrap(Itemz, width = 13)) +
   stat_summary(fun.y=mean, geom="point", color="blue", size=2, position=position_dodge(.9)) +
   theme(text = element_text(size=12)) +
-  facet_wrap(~Type, nrow=1) +
+  facet_wrap(~Type, labeller = as_labeller(long_form_names), nrow=1) +
   theme(strip.text.y=element_text(angle=0)) +
   ylab("Acceptability Rating") +
   xlab("Item")
@@ -81,6 +86,7 @@ ggsave(f="OFFICIAL_per_item_aND.pdf", height=3.5, width=10)
 
 #Get Rid of 5 & 6 because AgreeND means were below 4
 db <- df[!(df$Item=="5" | df$Item=="6"), ]
+revalue(db$Item, c("1"="She's a smart cookie, that Diana", "2"="They're wonderful people, the Italians", "3"="That looks like a good book for Carl, that one", "4"="That was a scary film, that one", "7"="I bet they're up to no good, those kids", "8"="Not easy, this stuff")) -> db$Item
 
 #Plot 'Em by Type
 ggplot(db, aes(x=Context, y=Acceptability)) +
@@ -90,7 +96,7 @@ ggplot(db, aes(x=Context, y=Acceptability)) +
   theme(strip.text.y=element_text(angle=0)) +
   facet_wrap(~Utterance, nrow=1) +
   ylab("Acceptability Rating") +
-  xlab("Variant")
+  xlab("Condition")
 ggsave(f="OFFICIAL_per_type.pdf",height=3.5,width=8)
 
 #By Item Again
@@ -101,7 +107,7 @@ ggplot(db, aes(x=Type, y=Acceptability)) +
   facet_wrap(~Item, nrow=2) +
   theme(strip.text.y=element_text(angle=0)) +
   ylab("Acceptability Rating") +
-  xlab("Variant")
+  xlab("Condition")
 ggsave(f="OFFICIAL_per_item_1.pdf",height=5,width=10)
 
 #Graph 'Em by Participant!
@@ -132,10 +138,10 @@ ggplot(db, aes(x=Type, y=Acceptability)) +
  stat_summary(fun.y=mean, geom="point", color="blue", size=2, position=position_dodge(.9)) +
  theme(text = element_text(size=12)) +
   theme(strip.text.y=element_text(angle=0)) +
-  facet_wrap(~ResponseId, nrow=7) +
+  facet_wrap(~ResponseId, nrow=8) +
   ylab("Acceptability Rating") +
-  xlab("Variant")
-ggsave(f="OFFICIAL_per_participant_2.pdf",height=12,width=20)
+  xlab("Condition")
+ggsave(f="OFFICIAL_per_participant_2.pdf",height=15,width=20)
 
 ggplot(db, aes(x=Participant, y=Acceptability)) +
   geom_boxplot(width=0.2, position=position_dodge(.9)) +
@@ -154,7 +160,7 @@ ggplot(db, aes(x=Type, y=Acceptability)) +
 theme(strip.text.y=element_text(angle=0)) +
   facet_wrap(~Region, nrow=2) +
  ylab("Acceptability Rating") +
-  xlab("Variant")
+  xlab("Condition")
 ggsave(f="OFFICIAL_per_region_1.pdf",height=5,width=12.5)
 
 ggplot(db, aes(x=Region, y=Acceptability)) +
@@ -171,14 +177,14 @@ ggplot(db, aes(x=Region, y=Acceptability)) +
 
 fakepeople <- c("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16")
 faketypes <- c("aRD", "aRD", "aRD", "aRD", "dRD", "dRD", "dRD", "dRD", "aND", "aND", "aND", "aND", "dND", "dND", "dND", "dND")
-fakevalues <- c("4", "4", "3", "2", "3", "2", "1", "2", "5", "5", "5", "4", "5", "4", "5", "4")
+fakevalues <- c("4", "5", "3", "2", "3", "2", "1", "2", "6", "6", "5", "4", "5", "4", "6", "4")
 fake.data <- data.frame(fakepeople, faketypes, fakevalues)
 fake.data$fakevalues <- as.numeric(fake.data$fakevalues)
 fake.data$fakecontext <- c("agree", "agree", "agree", "agree", "disagree", "disagree", "disagree", "disagree", "agree", "agree", "agree", "agree", "disagree", "disagree", "disagree", "disagree")
 fake.data$fakeutterance <- c("RD", "RD", "RD", "RD", "RD", "RD", "RD", "RD", "ND", "ND", "ND", "ND", "ND", "ND", "ND", "ND")
 
 revalue(fake.data$fakecontext, c("agree"="Agree", "disagree"="Disagree")) -> fake.data$fakecontext
-revalue(fake.data$fakeutterance, c("RD"="Right Dislocated", "ND"="Non-Dislocated")) -> fake.data$fakeutterance
+revalue(fake.data$fakeutterance, c("RD"="Right-Dislocated", "ND"="Non-Dislocated")) -> fake.data$fakeutterance
 
 #graph the fake dataset
 ggplot(fake.data, aes(x=fakecontext, y=fakevalues)) +
@@ -188,5 +194,39 @@ theme(text = element_text(size=12)) +
 theme(strip.text.y=element_text(angle=0)) +
 facet_wrap(~fakeutterance, nrow=1) +
 ylab("Acceptability Rating") +
-xlab("Variant")
+xlab("Condition")
 ggsave(f="OFFICIAL_fake_prediction.pdf",height=3.5,width=8)
+
+#byu-bnc corpus stuff
+bnc <- read.table(file = "bnc_examples.txt", sep="\t", header=TRUE)
+byubnc <- read.table(file = "data_from_byu.txt", sep="\t", header=TRUE)
+colnames(byubnc) <- c("Word", "Total_Corp", "Post_Comma_Pre_SF_Noun", "Total_Pre_NP_RDs", "Post_Comma_Sentence_Final", "Total_SF_Det_RDs", "Post_Comma_Pre_SF_one", "Total_Pre_one_RDs")
+
+byubnc$Word <- factor(byubnc$Word, levels=c("the", "that", "this", "these", "those"))
+bnc$dislocated.determiner <- factor(bnc$dislocated.determiner, levels=c("the","that","this","these","those"))
+
+ggplot(byubnc, aes(x=Word, y=Total_Corp)) +
+  geom_bar(stat = "identity") +
+  theme(text = element_text(size=12)) +
+  theme(strip.text.y=element_text(angle=0)) +
+  ylab("Number of Occurences in Corpus") +
+  xlab("Determiner")
+ggsave(f="THAT_total_corpus.pdf",height=5,width=5)
+
+ggplot(bnc, aes(x=dislocated.determiner)) +
+  geom_bar() +
+  theme(text = element_text(size=12)) +
+  theme(strip.text.y=element_text(angle=0)) +
+  ylab("Number of Occurences in Right-Dislocated NP") +
+  xlab("Determiner")
+ggsave(f="THAT_right_dislocations.pdf",height=5,width=5)
+
+#trying to see if by-item continues by region
+ggplot(db, aes(x=Type, y=Acceptability)) +
+  geom_boxplot(width=0.2, position=position_dodge(.9)) +
+  stat_summary(fun.y=mean, geom="point", color="blue", size=2, position=position_dodge(.9)) +
+  theme(text = element_text(size=12)) +
+  theme(strip.text.y=element_text(angle=0)) +
+  facet_grid(Region ~ Item) +
+  ylab("Acceptability Rating") +
+  xlab("Condition")
